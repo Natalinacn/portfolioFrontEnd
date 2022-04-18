@@ -2,10 +2,10 @@
 padding: 20px;
 }
 div{
-    background-color: #63afbf;
+    background-color: #2b2c2c;
     text-align: center;
-    color:white
-}
+    color:white;
+    }
 
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
