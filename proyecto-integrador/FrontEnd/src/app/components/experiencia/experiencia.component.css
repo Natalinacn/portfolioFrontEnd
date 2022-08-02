@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+h2, h3{
+    display: inline;
+}
+
+div{
+    background: #333233;
+    color: white;
+}
+
+.row{
+    padding: 20px;
+    }
