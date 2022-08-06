@@ -18,6 +18,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { interceptorProvider } from './service/interceptor-service';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,10 @@ import { FormsModule } from '@angular/forms';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
