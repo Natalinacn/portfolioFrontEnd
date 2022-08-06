@@ -17,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { LoginComponent } from './components/login/login.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule
