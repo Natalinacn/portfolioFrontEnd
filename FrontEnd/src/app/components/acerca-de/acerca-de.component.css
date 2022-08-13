@@ -10,6 +10,7 @@ div{
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
+        margin-top: 250px;
         position: absolute;
         width: 15%;
         border-radius: 100%;

@@ -106,5 +106,8 @@
       }
     }
   },
-  "defaultProject": "proyecto-integrador"
+  "defaultProject": "proyecto-integrador",
+  "cli": {
+    "analytics": false
+  }
 }
