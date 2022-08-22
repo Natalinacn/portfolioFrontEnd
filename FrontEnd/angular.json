@@ -24,7 +24,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
+              "src/assets"
                       ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
@@ -110,4 +110,4 @@
   "cli": {
     "analytics": false
   }
-}
+  }

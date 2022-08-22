@@ -15,16 +15,16 @@ public class Experiencia {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombreE;
-    private String descriptionE;
-     
+    private String descripcionE;
+    
     //Constructores
 
     public Experiencia() {
     }
 
-    public Experiencia(String nombreE, String descriptionE) {
+    public Experiencia(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
-        this.descriptionE = descriptionE;
+        this.descripcionE = descripcionE;
     }
     
     //Getters y Setters
@@ -45,17 +45,13 @@ public class Experiencia {
         this.nombreE = nombreE;
     }
 
-    public String getDescriptionE() {
-        return descriptionE;
+    public String getDescripcionE() {
+        return descripcionE;
     }
 
-    public void setDescriptionE(String descriptionE) {
-        this.descriptionE = descriptionE;
+    public void setDescripcionE(String descripcionE) {
+        this.descripcionE = descripcionE;
     }
-
-   // public void setDescriptionE(String string) {
-   //     throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-   // }
     
     
     
