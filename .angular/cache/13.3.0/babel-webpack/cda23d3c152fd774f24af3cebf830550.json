@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  production: true,\n  apiUrlEdu: 'https://backendngaporfolio.onrender.com/educacion/',\n  apiUrlPer: 'https://backendngaporfolio.onrender.com/personas/',\n  apiUrlExp: 'https://backendngaporfolio.onrender.com/explab/',\n  authUrl: 'https://backendngaporfolio.onrender.com/auth/'\n};","map":null,"metadata":{},"sourceType":"module"}

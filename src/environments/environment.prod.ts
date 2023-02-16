@@ -1,4 +1,7 @@
 export const environment = {
   production: true,
-  apiURL: "https://backendngaporfolio.onrender.com"
+  apiUrlEdu: 'https://backendngaporfolio.onrender.com/educacion/',
+  apiUrlPer: 'https://backendngaporfolio.onrender.com/personas/',
+  apiUrlExp: 'https://backendngaporfolio.onrender.com/explab/',
+  authUrl: 'https://backendngaporfolio.onrender.com/auth/'
 };
